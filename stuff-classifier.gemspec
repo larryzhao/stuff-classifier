@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.1'
   
-  s.add_runtime_dependency "ruby-stemmer"
+  s.add_runtime_dependency "jruby-stemmer"
   s.add_runtime_dependency "sequel"
   s.add_runtime_dependency "redis"
 
